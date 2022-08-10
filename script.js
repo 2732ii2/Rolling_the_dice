@@ -18,7 +18,8 @@ function dice_im() {
   if (a == 1) {
     main_dice = 1;
     var a = document.querySelector(".im");
-    a.style.background = "url('./_1.png')";
+    // url(./images_fold/_1.png)
+    a.style.background = "url('./images_fold/_1.png')";
     var d = 1;
     count += d;
     console.log("this is one number dice");
@@ -27,7 +28,7 @@ function dice_im() {
   if (a == 2) {
     main_dice = 0;
     var a = document.querySelector(".im");
-    a.style.background = "url('./_2.png')";
+    a.style.background = "url('./images_fold/_2.png')";
     get_i();
     var d = 2;
     count += d;
@@ -36,7 +37,7 @@ function dice_im() {
   if (a == 3) {
     main_dice = 0;
     var a = document.querySelector(".im");
-    a.style.background = "url('./_3.png')";
+    a.style.background = "url('./images_fold/_3.png')";
     get_i();
     var d = 3;
     count += d;
@@ -45,7 +46,7 @@ function dice_im() {
   if (a == 4) {
     main_dice = 0;
     var a = document.querySelector(".im");
-    a.style.background = "url('./_4.png')";
+    a.style.background = "url('./images_fold/_4.png')";
     get_i();
     var d = 4;
     count += d;
@@ -54,7 +55,7 @@ function dice_im() {
   if (a == 5) {
     main_dice = 0;
     var a = document.querySelector(".im");
-    a.style.background = "url('./_5.png')";
+    a.style.background = "url('./images_fold/_5.png')";
     get_i();
     var d = 1;
     count += 5;
@@ -63,7 +64,7 @@ function dice_im() {
   if (a == 6) {
     main_dice = 0;
     var a = document.querySelector(".im");
-    a.style.background = "url('./_6.png')";
+    a.style.background = "url('./images_fold/_6.png')";
     get_i();
     var d = 6;
     count += d;
