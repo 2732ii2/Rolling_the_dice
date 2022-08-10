@@ -6,7 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>game</h1>
-    <h3>game</h3>
+     <div class="con">
+        <div class="h">
+            <button  onclick="new_game()"  id="btn1">   New Game</button>
+            <div id="mi" class="im"></div>
+            <button id="btn2" onclick="dice_im() , gamer() ,dic_in()" > Dice</button>
+            <button id="btn3" onclick="on_check()" >Hold</button>
+        </div>
+        <div id ="_one " class="left active">
+            <h1 id="h">Player 1</h1>
+            <span id="__1" >0</span>
+            <div class="main__">
+                <h1>Current <span id="sp">  0</span></h1> 
+            </div>
+        </div>
+        <div id="-_two" class="right">
+            <h1 id="h_">Player 2</h1>
+            <span id="_2">0</span>
+            <div class="main_1">
+                <h1>Current  <span id="sp1">  0</span></h1> 
+            </div>
+        </div>
+    </div>
 </body>
 </html>
